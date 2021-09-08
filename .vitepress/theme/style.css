@@ -1,0 +1,25 @@
+table {
+    display:table;
+    width:100%;
+}
+
+table thead th {
+    color: #5c6b77;
+    font-weight: 500;
+    white-space: nowrap;
+    background: rgba(0,0,0,.02);
+}
+
+table th, td {
+    padding: 12px;
+    border-color: #f0f0f0;
+    border-width: 1px 0;
+}
+
+table td:first-child, table th:first-child {
+    border-left: 1px solid #f0f0f0;
+}
+
+table td:last-child, table th:last-child {
+    border-right: 1px solid #f0f0f0;
+}

@@ -1,0 +1,5 @@
+.DS_Store
+.vitepress/dist/*
+!.gitkeep
+node_modules/
+yarn.lock
